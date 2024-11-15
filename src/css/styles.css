@@ -30,6 +30,12 @@ header {
     transition: color 0.3s ease;
 }
 
+.menu-option a {
+    color: inherit; /* Оставляет цвет текста таким, какой у элемента-родителя */
+    text-decoration: none; /* Убирает подчеркивание */
+}
+
+
 .menu-option:hover {
     color: #0073e6;
 }
