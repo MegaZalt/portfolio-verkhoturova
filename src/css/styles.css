@@ -75,6 +75,12 @@ header {
     text-align: justify;
 }
 
+.contacts {
+    display: flex;
+    background-color: #333333;
+    color: #ffffff;
+}
+
 
 @media (max-width: 768px) {
     header {
