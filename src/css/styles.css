@@ -77,6 +77,30 @@ main {
   margin-bottom: 10px;
 }
 
+.portfolio-link {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-link {
+  text-align: center;
+  flex: 1 1 200px;
+}
+
+.project-link a {
+  text-decoration: none; /* Убирает подчеркивание */
+}
+
+.project-text {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
 .text-about {
   font-size: 1em;
   color: #333333;
