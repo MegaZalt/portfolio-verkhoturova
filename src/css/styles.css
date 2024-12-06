@@ -184,6 +184,8 @@ button:hover {
   background-color: #0056b3;
 }
 
+@media (max-width: 759px) and (min-width: 321px) {}
+
 @media (max-width: 320px) {
   header {
     display: flex;
