@@ -15,12 +15,12 @@ header {
   padding: 20px;
   background-color: #333333;
   color: #ffffff;
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  z-index: 1000; 
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .menu {
@@ -46,7 +46,7 @@ header {
 }
 
 main {
-  padding-top: 80px; 
+  padding-top: 80px;
 }
 
 .about-me {
@@ -75,6 +75,7 @@ main {
   font-size: 1.5em;
   color: #333333;
   margin-bottom: 10px;
+  
 }
 
 .portfolio-link {
@@ -135,8 +136,8 @@ main {
 }
 
 .contacts-menu a:hover {
-    color: #007bff; 
-  }
+  color: #007bff;
+}
 
 .contacts-menu a {
   text-decoration: none;
@@ -186,14 +187,24 @@ button:hover {
 
 @media (max-width: 768px) {
   header {
-    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    margin: 0;
   }
 
   .menu {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
   .menu-option {
@@ -217,6 +228,16 @@ button:hover {
   .main-menu {
     min-width: auto;
     margin-bottom: 10px;
+    text-align: center; /* Центрирует текст внутри элемента */
+    font-size: 1.5rem; /* Размер шрифта (по желанию) */
+    margin: 0 auto; /* Центрация с учётом отступов */
+  }
+
+  .portfolio-link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
   }
 
   .text-about {
